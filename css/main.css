@@ -38,6 +38,8 @@ body {
 h1, h2, h3, h4 {
 	font-weight: 100;
 	text-transform: uppercase;
+	width: min-content;
+	line-height: 1;
 }
 
 .container {
@@ -67,7 +69,6 @@ h1, h2, h3, h4 {
 .frame h2 {
 	text-align: center;
 	font-size: calc(var(--index) * 3.3);
-	width: min-content;
 }
 
 .frame-media {
@@ -102,3 +103,22 @@ video.frame-media_right {
 video.frame-media_left {
 	right: calc(var(--side-big) / 2 * var(--index) + var(--gutter));
 }	
+
+.text_right > * {
+	position: relative;
+	left: 18vw;
+}
+
+.text_left > * {
+	position: relative;
+	right: 18vw;
+}
+
+.frame h3 {
+	font-size: calc(var(--index) * 3);
+}
+
+.frame p {
+	max-width: 30vw;
+	margin-top: 3vh;
+}
