@@ -118,7 +118,7 @@ video.frame-media_left {
 	font-size: calc(var(--index) * 3);
 }
 
-/* .frame p {
+.frame p {
 	max-width: 30vw;
 	margin-top: 3vh;
 }
@@ -134,4 +134,4 @@ video.frame-media_left {
 
 .soundbutton.paused {
 	opacity: .25;
-} */
+}
